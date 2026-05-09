@@ -310,7 +310,7 @@
     }
 
     async function initAdmin() {
-        if (localStorage.getItem('gardena_user') !== 'ADMIN') { window.location.href = "index.html"; return; }
+        if (localStorage.getItem('gardena_user') !== 'ADMIN') { window.location.href = "#"; return; }
         if (localStorage.getItem('gardena_dark') === 'true') document.body.classList.add('dark');
         
         // Open controls by default on load
